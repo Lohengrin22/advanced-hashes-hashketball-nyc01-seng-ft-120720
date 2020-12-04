@@ -157,7 +157,8 @@ def num_points_scored(name)
   end
   
   def team_names(game)
-  game_hash.collect do |key, stats|
+  game_hash.collect do |element|
+    binding.pry 
       if stats[:team_name] == team 
         return stats[:colors]
       end
