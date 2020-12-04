@@ -200,7 +200,8 @@ def big_shoe_rebounds
         curr_reb = player[:rebounds]
         binding.pry 
       end
-    end 
+    end
+    curr_reb
   end
  end
   
