@@ -165,16 +165,16 @@ def num_points_scored(name)
   end
   
   def player_numbers(team)
-    
   game_hash.each do |key, stats|
     if stats[:team_name] == team
         stats[:players].each do |player|
           team.push(player[:number]
         end
-      teams
+      team
     end 
   end
- end
+end 
+
   
   
   
