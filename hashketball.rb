@@ -153,7 +153,7 @@ def num_points_scored(name)
     binding.pry 
     stats[:players].each do |player|
       if player[:player_name] == name 
-        return key[:colors]
+        return stats[:colors]
       end
     end 
   end
