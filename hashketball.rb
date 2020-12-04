@@ -187,7 +187,15 @@ end
   end
  end
   
-  
+   def big_shoe_rebounds(rebounds)
+  game_hash.each do |key, stats|
+    stats[:players].each do |player|
+      if player[:player_name] == name 
+        return player
+      end
+    end 
+  end
+ end
   
   
   
