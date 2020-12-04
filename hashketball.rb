@@ -189,9 +189,15 @@ end
   
 def big_shoe_rebounds
   curr_key = nil 
-  lowest = nil 
+  max = nil 
   game_hash.each do |key, stats|
     stats[:players].each do |player|
+      if max == nil 
+        lowest = value 
+    curr_key = key 
+    elsif value  <  lowest
+    lowest = value 
+    curr_key = key 
       if player[:shoe].max  
         return player[:rebounds]
       end
