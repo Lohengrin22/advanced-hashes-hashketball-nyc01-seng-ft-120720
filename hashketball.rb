@@ -159,7 +159,7 @@ def num_points_scored(name)
   def team_names
     teams = []
   game_hash.each do |key, stats|
-     stats[:team_name] << teams
+     stats[:home] << teams
     end 
     teams
   end
