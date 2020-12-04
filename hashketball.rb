@@ -161,6 +161,6 @@ def num_points_scored(name)
     binding.pry 
       if stats[:team_name] == team 
         return stats[:colors]
-      end
+      end 
     end 
   end
