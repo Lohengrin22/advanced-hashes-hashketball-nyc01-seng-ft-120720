@@ -158,7 +158,7 @@ def num_points_scored(name)
   
   def team_names
   game_hash.each do |key, stats|
-    stats[:team_name].collect do |element|
+    stats[:team_name].each do |name, string|
     binding.pry
       end
     end 
