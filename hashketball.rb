@@ -172,7 +172,7 @@ def num_points_scored(name)
           team_arr.push(player[:number])
           binding.pry 
         end
-      team_arr
+      team_arr.sort
     end 
   end
 end 
