@@ -200,7 +200,7 @@ def big_shoe_rebounds
         curr_reb = player[:rebounds]
       end
     end
-    curr_reb
+    return curr_reb
   end
  end
   
