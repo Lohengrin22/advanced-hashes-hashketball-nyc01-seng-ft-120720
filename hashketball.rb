@@ -171,8 +171,8 @@ def num_points_scored(name)
         stats[:players].each do |player|
           team_arr.push(player[:number])
         end
-      team_arr.sort
     end 
+    team_arr.sort
   end
 end 
 
