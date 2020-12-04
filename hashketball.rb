@@ -155,3 +155,11 @@ def num_points_scored(name)
       end
     end 
   end
+  
+  def team_names(game)
+  game_hash.each do |key, stats|
+      if stats[:team_name] == team 
+        return stats[:colors]
+      end
+    end 
+  end
