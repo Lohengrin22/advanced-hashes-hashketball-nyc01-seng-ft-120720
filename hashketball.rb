@@ -168,6 +168,7 @@ def num_points_scored(name)
     team_arr = []
   game_hash.each do |key, stats|
     if stats[:team_name] == team
+      binding.pry 
         stats[:players].each do |player|
           team_arr.push(player[:number])
         end
