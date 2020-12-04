@@ -171,6 +171,7 @@ def num_points_scored(name)
       binding.pry 
         stats[:players].each do |player|
           team_arr.push(player[:number])
+          binding.pry 
         end
       team_arr
     end 
