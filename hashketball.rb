@@ -158,7 +158,6 @@ def num_points_scored(name)
   
   def team_names
   game_hash.collect do |key, stats|
-    binding.pry 
-    
+    return stats[:team_name]
     end 
   end
