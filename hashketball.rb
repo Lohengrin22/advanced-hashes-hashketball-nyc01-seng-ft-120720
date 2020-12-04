@@ -127,7 +127,7 @@ def game_hash
   }
 end
 
-Write code here
+#Write code here
 def num_points_scored(name)
   game_hash.each do |key, stats|
     stats[:players].each do |player|
