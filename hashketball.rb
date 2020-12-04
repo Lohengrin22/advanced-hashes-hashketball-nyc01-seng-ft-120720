@@ -172,6 +172,7 @@ def num_points_scored(name)
           team_arr.push(player[:number])
           team_arr.sort
         end
+        return team_arr
     end 
   end
 end 
