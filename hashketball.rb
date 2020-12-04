@@ -170,9 +170,9 @@ def num_points_scored(name)
     if stats[:team_name] == team
         stats[:players].each do |player|
           team_arr.push(player[:number])
+          team_arr.sort
         end
     end 
-    team_arr.sort
   end
 end 
 
