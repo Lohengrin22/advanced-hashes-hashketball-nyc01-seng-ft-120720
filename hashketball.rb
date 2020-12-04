@@ -198,6 +198,7 @@ def big_shoe_rebounds
         elsif player[:shoe] > max
         max = player[:shoe]
         curr_reb = player[:rebounds]
+        binding.pry 
       end
       return curr_reb
     end 
