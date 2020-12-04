@@ -161,5 +161,6 @@ def num_points_scored(name)
   game_hash.each do |key, stats|
     stats[:team_name].map do |i|
     binding.pry
+      end 
     end 
   end
