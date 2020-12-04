@@ -187,7 +187,7 @@ end
   end
  end
   
-def big_shoe_rebounds(rebounds)
+def big_shoe_rebounds
   game_hash.each do |key, stats|
     stats[:players].each do |player|
       if player[:shoe].max  
