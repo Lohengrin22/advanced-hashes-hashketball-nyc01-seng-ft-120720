@@ -150,6 +150,7 @@ def num_points_scored(name)
 
  def team_colors(team)
   game_hash.each do |key, stats|
+    binding.pry 
     stats.each do |team_att|
       if team_att[:team_name] == team 
         return stats[:colors]
